@@ -3,9 +3,9 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Välkommen
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej och välkommen till min portfolio i kursen design!
 
-This is a sample home page written in markdown with some frontmatter defined.
+Detta är grunden till min framtida webbsida.
