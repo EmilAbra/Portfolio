@@ -1,0 +1,40 @@
+.footer {
+    background-color: $footer-background-color;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $border-color;
+    height: 100px;
+    flex: 0 0 auto;
+}
+
+.footer p {
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.footer a {
+    color: $icon-color;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+    .footer p {
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer p {
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}
