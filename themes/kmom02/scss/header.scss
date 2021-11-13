@@ -1,4 +1,6 @@
-.header, .site-header {
+
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
 }
@@ -6,8 +8,5 @@
 .header {
     background-color: $header-background-color;
     border-bottom: 1px solid $border-color;
-}
-
-.header {
     flex: 0 0 auto;
 }
