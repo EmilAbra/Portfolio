@@ -11,5 +11,10 @@ Social:
     - title: Sass basics.
       url: https://sass-lang.com/guide
       sass: fab fa-sass
-
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
