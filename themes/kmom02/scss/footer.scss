@@ -3,9 +3,10 @@
 .footer {
     background-color: $footer-background-color;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     border-top: 1px solid $border-color;
-    height: 100px;
+    height: auto;
     flex: 0 0 auto;
 
     p {
@@ -22,6 +23,8 @@
         font-size: 2rem;
         margin-top: 50px;
         margin-right: 20px;
+        margin-bottom: 20px;
+        align-self: end;
     }
 }
 
@@ -39,5 +42,6 @@
         margin-left: 100px;
         margin-right: 50px;
         margin-top: 10px;
+        text-align: -webkit-match-parent;
     }
 }
