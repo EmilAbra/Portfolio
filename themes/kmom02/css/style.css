@@ -6658,6 +6658,50 @@ p {
     margin-bottom: 25px;
   }
 }
+.analysis-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  flex: 1 0 auto;
+}
+
+.analysis-sidenav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.analysis-sidenav a {
+  text-decoration: none;
+}
+
+.analysis {
+  max-width: 40%;
+  padding-left: 50px;
+}
+
+@media (min-width: 2000px) {
+  .analysis {
+    max-width: 25%;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .analysis-container {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .analysis {
+    max-width: 90%;
+    padding-left: 0;
+  }
+
+  .analysis-sidenav {
+    display: none;
+  }
+}
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
