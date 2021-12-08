@@ -19,6 +19,15 @@
     padding-left: 50px;
 }
 
+.analysis h2 {
+    margin-bottom: 10px;
+}
+
+.analysis p {
+    margin-bottom: 20px;
+}
+
+
 @media (min-width: 2000px) {
     .analysis {
         max-width: 25%;
@@ -37,9 +46,5 @@
     .analysis {
         max-width: 90%;
         padding-left: 0;
-    }
-
-    .analysis-sidenav {
-        display: none;
     }
 }

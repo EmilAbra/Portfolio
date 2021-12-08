@@ -4,6 +4,10 @@ body {
     color: $font-color;
 }
 
+body a {
+    color: $body-link-color;
+}
+
 p,
 td,
 th,

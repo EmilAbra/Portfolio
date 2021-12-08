@@ -8,11 +8,19 @@
     flex: 1 0 auto;
 }
 
+.technology-container .technology-items:hover {
+    background-color: $header-background-color;
+}
+
 .technology-container
 h1,
 p {
     grid-column: span 3;
     justify-self: center;
+}
+
+.technology-container a {
+    text-decoration: none;
 }
 
 .technology-items {

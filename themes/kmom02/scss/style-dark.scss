@@ -5,7 +5,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'title';
 @import 'header';
 @import 'main';
@@ -14,6 +14,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'mobile-menu';
 @import 'blockquotes';
 @import 'code';
-@import 'typografi';
+@import 'typografi-dark';
 @import 'footer';
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+
+html img {
+  filter: brightness(.8) contrast(1.2);
+}

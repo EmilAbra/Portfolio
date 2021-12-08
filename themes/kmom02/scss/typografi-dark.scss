@@ -1,0 +1,39 @@
+body {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 350;
+    line-height: 1.5em;
+    font-size: 20px;
+    color: $font-color;
+}
+
+body a {
+    color: $body-link-color;
+}
+
+.header a:hover {
+    color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+
+img {
+    max-width: 100%;
+}

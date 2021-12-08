@@ -6490,7 +6490,7 @@ template {
 }
 
 .header {
-  background-color: #add8e6;
+  background-color: #D9F5FF;
   border-bottom: 1px solid #222;
   flex: 0 0 auto;
 }
@@ -6510,7 +6510,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #fafad2;
+  background-color: #ffedd9;
 }
 
 /* Nested .main */
@@ -6570,20 +6570,28 @@ ul {
   flex: 1 0 auto;
 }
 
+.technology-container .technology-items:hover {
+  background-color: #D9F5FF;
+}
+
 .technology-container h1,
 p {
   grid-column: span 3;
   justify-self: center;
 }
 
+.technology-container a {
+  text-decoration: none;
+}
+
 .technology-items {
-  background: #e6c9ac;
+  background: #B39474;
   padding: 1.5rem;
   border-radius: 1rem;
   height: 10em;
   color: #444;
   min-width: 200px;
-  border-bottom: 10px inset #638c99;
+  border-bottom: 10px inset #86A7B3;
 }
 
 .technology-article {
@@ -6648,7 +6656,7 @@ p {
   }
 
   .technology-items {
-    background: #e6c9ac;
+    background: #B39474;
     padding: 1.5rem;
     border-radius: 1rem;
     height: 10em;
@@ -6679,6 +6687,14 @@ p {
   padding-left: 50px;
 }
 
+.analysis h2 {
+  margin-bottom: 10px;
+}
+
+.analysis p {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 2000px) {
   .analysis {
     max-width: 25%;
@@ -6696,10 +6712,6 @@ p {
   .analysis {
     max-width: 90%;
     padding-left: 0;
-  }
-
-  .analysis-sidenav {
-    display: none;
   }
 }
 .slide {
@@ -6799,6 +6811,10 @@ body {
   color: #444;
 }
 
+body a {
+  color: #4848F0;
+}
+
 p,
 td,
 th,
@@ -6825,7 +6841,7 @@ img {
 
 /* Nested .footer */
 .footer {
-  background-color: #add8e6;
+  background-color: #D9F5FF;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
