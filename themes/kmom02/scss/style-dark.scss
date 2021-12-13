@@ -10,6 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'main';
 @import 'technology';
+@import 'gallery';
 @import 'analysis';
 @import 'mobile-menu';
 @import 'blockquotes';
@@ -21,5 +22,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 html img {
-  filter: brightness(.8) contrast(1.2);
+    filter: brightness(0.8) contrast(1.2);
 }

@@ -1,13 +1,17 @@
 body {
-    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 350;
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 22px;
     color: $font-color;
 }
 
 body a {
     color: $body-link-color;
+}
+
+body h1 {
+    line-height: 1em;
 }
 
 .header a:hover {
