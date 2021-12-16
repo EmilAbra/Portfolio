@@ -22,19 +22,21 @@ body {
 .main {
     flex: 1 0 auto;
 
-    h1 {
+    h1,
+    h2,
+    h3,
+    h4 {
         margin-top: 100px;
         margin-left: 300px;
     }
 
-    h2 {
-        margin-top: 100px;
-        margin-left: 30%;
-    }
-
-    p {
+    p,
+    ul,
+    ol,
+    table {
         margin-left: 300px;
-        margin-right: 50px;
+        margin-bottom: 100px;
+        max-width: 750px;
     }
 }
 

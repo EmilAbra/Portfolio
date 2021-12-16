@@ -1,7 +1,6 @@
 .nav ul li:hover {
     border: 2px solid #000;
     border-radius: 50%;
-    background-color: #ccd7ff;
 }
 
 
@@ -32,9 +31,9 @@
     letter-spacing: 0.1em;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: #808080;
     text-shadow:
-    8px 8px #ccd7ff,
+    8px 8px $main-background-color,
     20px 20px #000;
 }
 

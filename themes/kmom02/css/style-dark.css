@@ -4,6 +4,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sarabun&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Yanone+Kaffeesatz:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap");
 .fa,
 .fas,
 .far,
@@ -6470,6 +6471,16 @@ template {
   width: 30%;
 }
 
+.logo img {
+  border-radius: 50%;
+  max-width: 300%;
+}
+
+@media (max-width: 1200px) {
+  .logo img {
+    max-width: 200%;
+  }
+}
 @media (max-width: 767px) {
   .title,
 .logo {
@@ -6484,6 +6495,11 @@ template {
     max-width: 30%;
   }
 }
+.nav ul li:hover {
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
 .header,
 .site-header {
   display: flex;
@@ -6496,6 +6512,64 @@ template {
   flex: 0 0 auto;
 }
 
+.header a {
+  text-decoration: none;
+}
+
+.header h1 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  line-height: 1em;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #808080;
+  text-shadow: 8px 8px #232b32, 20px 20px #000;
+}
+
+@media (max-width: 1650px) {
+  .header h1 {
+    font-size: 100px;
+  }
+}
+@media (max-width: 1550px) {
+  .header h1 {
+    font-size: 85px;
+    line-height: 1.1em;
+    letter-spacing: 0.15em;
+  }
+}
+@media (max-width: 1450px) {
+  .header h1 {
+    font-size: 75px;
+  }
+}
+@media (max-width: 1350px) {
+  .header h1 {
+    font-size: 55px;
+    left: 45%;
+  }
+}
+@media (max-width: 1200px) {
+  .header h1 {
+    font-size: 55px;
+    left: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .header h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 25px;
+  }
+}
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6518,17 +6592,20 @@ body {
 .main {
   flex: 1 0 auto;
 }
-.main h1 {
+.main h1,
+.main h2,
+.main h3,
+.main h4 {
   margin-top: 100px;
   margin-left: 300px;
 }
-.main h2 {
-  margin-top: 100px;
-  margin-left: 30%;
-}
-.main p {
+.main p,
+.main ul,
+.main ol,
+.main table {
   margin-left: 300px;
-  margin-right: 50px;
+  margin-bottom: 100px;
+  max-width: 750px;
 }
 
 ol,
@@ -6760,7 +6837,8 @@ p {
   margin-bottom: 10px;
 }
 
-.analysis p {
+.analysis p,
+li {
   margin-bottom: 20px;
 }
 
@@ -6872,6 +6950,8 @@ pre {
   border: 1px solid #ccc;
   border-radius: 0.3em;
   background: #806740;
+  margin-left: 300px;
+  max-width: 750px;
 }
 
 pre code {
@@ -6947,7 +7027,7 @@ img {
   text-decoration: none;
 }
 .footer .social {
-  font-size: 2rem;
+  font-size: 2em;
   margin-top: 50px;
   margin-right: 20px;
   margin-bottom: 20px;

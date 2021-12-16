@@ -19,16 +19,8 @@
 }
 
 .logo img {
-    max-width: 300%;
     border-radius: 50%;
-    filter: grayscale(100%);
-}
-
-.logo img:hover {
-    filter: grayscale(0%);
-    filter: #808080;
-    filter: none;
-    transition: 1s ease;
+    max-width: 300%;
 }
 
 @media (max-width: 1200px) {
